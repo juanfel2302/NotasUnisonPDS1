@@ -1,0 +1,12 @@
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\bin\Debug\net8.0-windows\Notas_Unison_Core.deps.json
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\bin\Debug\net8.0-windows\Notas_Unison_Core.dll
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\bin\Debug\net8.0-windows\Notas_Unison_Core.pdb
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\obj\Debug\net8.0-windows\Notas_Unison_Core.csproj.AssemblyReference.cache
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\obj\Debug\net8.0-windows\Notas_Unison_Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\obj\Debug\net8.0-windows\Notas_Unison_Core.AssemblyInfoInputs.cache
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\obj\Debug\net8.0-windows\Notas_Unison_Core.AssemblyInfo.cs
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\obj\Debug\net8.0-windows\Notas_Unison_Core.csproj.CoreCompileInputs.cache
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\obj\Debug\net8.0-windows\Notas_Unison_Core.dll
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\obj\Debug\net8.0-windows\refint\Notas_Unison_Core.dll
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\obj\Debug\net8.0-windows\Notas_Unison_Core.pdb
+C:\Users\juanj\Desktop\Rider\Almacen\Notas_Unison\Notas_Unison_Core\obj\Debug\net8.0-windows\ref\Notas_Unison_Core.dll
