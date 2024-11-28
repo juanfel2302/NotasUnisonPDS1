@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notas_Unison_App", "Notas_Unison_App\Notas_Unison_App.csproj", "{B4C684C7-E121-4631-BFD4-1058AEB6B93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notas_Unison_Core", "Notas_Unison_Core\Notas_Unison_Core.csproj", "{47F6D706-7B21-46A0-9F07-F7670577DC71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notas_Unison_Tests", "Notas_Unison_Tests\Notas_Unison_Tests.csproj", "{9FDEBBEA-000B-46F2-868B-5F556FDB9C23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4C684C7-E121-4631-BFD4-1058AEB6B93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C684C7-E121-4631-BFD4-1058AEB6B93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C684C7-E121-4631-BFD4-1058AEB6B93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C684C7-E121-4631-BFD4-1058AEB6B93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F6D706-7B21-46A0-9F07-F7670577DC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F6D706-7B21-46A0-9F07-F7670577DC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F6D706-7B21-46A0-9F07-F7670577DC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F6D706-7B21-46A0-9F07-F7670577DC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDEBBEA-000B-46F2-868B-5F556FDB9C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDEBBEA-000B-46F2-868B-5F556FDB9C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDEBBEA-000B-46F2-868B-5F556FDB9C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDEBBEA-000B-46F2-868B-5F556FDB9C23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

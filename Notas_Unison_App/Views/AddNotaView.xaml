@@ -1,0 +1,52 @@
+﻿<Page x:Class="Notas_Unison.Views.AddNotaView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Notas_Unison.Views"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      xmlns:viewModel="clr-namespace:Notas_Unison.ViewModel"
+      d:DataContext="{d:DesignInstance viewModel:AddNotasViewModel}"
+      mc:Ignorable="d"
+      Title="Agregar Nota" Height="800" Width="900">
+    
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+          Background="{Binding SelectedColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>   <!-- Título y encabezados -->
+            <RowDefinition Height="*"/>      <!-- Formulario de la nota -->
+        </Grid.RowDefinitions>
+
+        <!-- Título y formulario -->
+        <StackPanel Grid.Row="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="20">
+            <TextBlock Text="Agregar Nota" Style="{StaticResource TitleText}" />
+
+            <!-- Título de la nota -->
+            <Label Content="Título"/>
+            <ui:TextBox Text="{Binding Path=Nota.Nombre, Mode=TwoWay}" />
+
+            <!-- Contenido de la nota -->
+            <Label Content="Contenido"/>
+            <ui:TextBox Text="{Binding Path=Nota.Contenido, Mode=TwoWay}" Height="150"  
+                        TextWrapping="Wrap" AcceptsReturn="True"/>
+
+            <Label Content="Seleccionar Color"/>
+            <ComboBox ItemsSource="{Binding AvailableColors}" 
+                      SelectedItem="{Binding SelectedColor}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <Rectangle Width="20" Height="20" Fill="{Binding}" Margin="5"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <!-- Botón para agregar una nota -->
+            <ui:Button Content="Agregar"
+                       Style="{StaticResource GreenPrimaryButton}"
+                       Command="{Binding AgregarNotaCommand}" />
+        </StackPanel>
+
+        <Grid Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        </Grid>
+    </Grid>
+</Page>

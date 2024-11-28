@@ -1,0 +1,44 @@
+﻿<Page x:Class="Notas_Unison.Views.EditarNotasView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Notas_Unison.Views"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d"
+      Title="EditarNotasView">
+    
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch"> 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>   
+            <RowDefinition Height="*"/>      
+        </Grid.RowDefinitions>
+
+        <!-- Título y ComboBox -->
+        <StackPanel Grid.Row="0" Margin="20">
+            <TextBlock Text="Editar Notas" Style="{StaticResource TitleText}"/>
+
+            <Label Content="Seleccionar Nota"/>
+            <ComboBox ItemsSource="{Binding Notas}" 
+                      SelectedItem="{Binding NotaSeleccionada}" 
+                      DisplayMemberPath="Nombre"/>
+        </StackPanel>
+
+        <!-- Formulario de edición -->
+        <StackPanel Grid.Row="1" Margin="20" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <Label Content="Título"/>
+            <ui:TextBox Text="{Binding Path=NotaSeleccionada.Nombre, Mode=TwoWay}" />
+
+            <Label Content="Contenido"/>
+            <ui:TextBox Text="{Binding Path=NotaSeleccionada.Contenido, Mode=TwoWay}" 
+                        Height="150"  
+                        TextWrapping="Wrap" 
+                        AcceptsReturn="True" />
+
+            <!-- Botón para guardar la nota -->
+            <ui:Button Content="Guardar"
+                       Style="{StaticResource GreenPrimaryButton}"
+                       Command="{Binding GuardarNotaCommand}" />
+        </StackPanel>
+    </Grid>
+</Page>
